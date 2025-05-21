@@ -10,7 +10,27 @@ function getData() {
        // Traitez les données comme vous le souhaitez
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
+let journal = data.journal;
+console.log(journal);
+
+let nomJournal = Document.createElement
+
       
+let divHeader = document.createElement('header');
+let divTitre = document.createElement('div');
+let divTheme = document.createElement('div');
+
+divTitre.className ='divTitre' 
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
 
       
 
