@@ -1,0 +1,66 @@
+.logo{
+   display: flex;
+   flex-direction: row; 
+   text-align: center;  
+   justify-content: space-between;  
+   gap: 15px;  
+} 
+.logo img{
+   width: 60px;
+   height: 60px;
+}
+.lien{
+   color: black;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+  
+.avatar{
+   width: 70px;
+   height: 70px;
+   border-radius: 100%;
+   border: 3px solid #8005F2;
+}
+nav{
+   display: flex;    
+   height: 100%;
+   align-content: center;
+   justify-content: space-between;
+   background: white;
+   padding: 10px 30px;
+   box-shadow: 10px 5px 5px black;
+   align-items: center;
+}
+ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 30px;
+}
+li{
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+}
+.bouton-avatar{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+}
+.bouton{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 8px 16px;
+   width: fit-content;
+   font-weight: 500;
+}
+.bouton.primaire{
+   background: #8005F2;
+   color: white;
+}
