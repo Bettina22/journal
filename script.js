@@ -13,7 +13,7 @@ function getData() {
 let journal = data.journal;
 console.log(journal);
 
-let nomJournal = Document.createElement
+let nomJournal = Document.createElement('journal');
 
       
 let divHeader = document.createElement('header');
