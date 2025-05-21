@@ -1,0 +1,93 @@
+{
+  "journal": {
+    "nomJournal": "Cube Génération",
+    "phraseAccroche": "Les esprits affûtés du Rubik's Cube français",
+    "texteAppelAction": "Rejoignez notre newsletter pour suivre les prodiges du speedcubing",
+    "articlePrincipal": {
+      "titre": "Nicolas Gertner : le virtuose du cube à 16 ans",
+      "description": "À seulement 16 ans, Nicolas Gertner impressionne par sa maîtrise du Rubik's Cube, résolvant le puzzle avec une dextérité remarquable.",
+      "date": "20 Mai 2025",
+      "theme": "Innovations",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Nicolas_Gertner_2024.jpg/800px-Nicolas_Gertner_2024.jpg"
+    },
+    "articles": [
+      {
+        "titre": "Mikael Taieb redéfinit les limites du Rubik's Cube",
+        "date": "15 Avril 2025",
+        "theme": "Recherche",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mikael_Taieb_2024.jpg/800px-Mikael_Taieb_2024.jpg"
+      },
+      {
+        "titre": "Le Championnat de France 2025 : un vivier de jeunes talents",
+        "date": "10 Mars 2025",
+        "theme": "Applications",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Championnat_France_2025.jpg/800px-Championnat_France_2025.jpg"
+      },
+      {
+        "titre": "L'Association Française de Speedcubing : moteur de la discipline",
+        "date": "25 Février 2025",
+        "theme": "Débats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/AFS_Logo.jpg/800px-AFS_Logo.jpg"
+      },
+      {
+        "titre": "Gilles Roux : l'inventeur de la méthode éponyme",
+        "date": "10 Janvier 2025",
+        "theme": "Partenariats",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gilles_Roux_2024.jpg/800px-Gilles_Roux_2024.jpg"
+      },
+      {
+        "titre": "Le Rubik's Cube : un outil pédagogique et thérapeutique",
+        "date": "5 Décembre 2024",
+        "theme": "Éthique",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rubiks_Cube_Education.jpg/800px-Rubiks_Cube_Education.jpg"
+      }
+    ],
+    "themes": [
+      {
+        "nom": "Innovations",
+        "description": "Les nouvelles figures du speedcubing français qui révolutionnent le sport."
+      },
+      {
+        "nom": "Recherche",
+        "description": "Analyses des parcours et des performances des jeunes talents du Rubik's Cube."
+      },
+      {
+        "nom": "Applications",
+        "description": "L'impact du speedcubing français sur la scène internationale."
+      },
+      {
+        "nom": "Débats",
+        "description": "Les enjeux sociaux et éducatifs dans les académies de Rubik's Cube françaises."
+      },
+      {
+        "nom": "Partenariats",
+        "description": "Les collaborations entre clubs français et organisations internationales de speedcubing."
+      },
+      {
+        "nom": "Éthique",
+        "description": "Les défis sociaux et culturels liés à la pratique du Rubik's Cube chez les jeunes Français."
+      }
+    ],
+    "auteurs": [
+      {
+        "prenom": "Claire",
+        "typeExperience": "Journaliste spécialisée en jeux de réflexion",
+        "presentation": "Je couvre les compétitions de Rubik's Cube avec un intérêt particulier pour les jeunes talents émergents."
+      },
+      {
+        "prenom": "Thomas",
+        "typeExperience": "Analyste en développement cognitif",
+        "presentation": "Je m'intéresse aux interactions entre jeux de réflexion, culture et développement personnel, notamment dans le contexte français."
+      },
+      {
+        "prenom": "Elena",
+        "typeExperience": "Sociologue du jeu",
+        "presentation": "Je travaille sur les dynamiques sociales et identitaires liées à la pratique du Rubik's Cube chez les jeunes."
+      }
+    ]
+  }
+}
+
+
+
+
