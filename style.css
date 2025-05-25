@@ -84,6 +84,9 @@ header{
    flex-direction: column;
    padding: 20px;
 }
+main{
+   display: flex;
+}
 #sectionA{
    background-color: orangered;
 }
@@ -99,4 +102,5 @@ footer
 align-items: center;
 justify-content: center;
 font-weight: 500;
+background-color: red;
 }

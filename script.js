@@ -35,91 +35,91 @@ header.appendChild(texteAppelAction);*/
 
 /*SectionA Article Plus Récent*/
 
-let sectionA = document.getElementById('sectionA');
+let sectionA = document.getElementById('sectionA')
 console.log(sectionA);
 
-let titleArticle = document.createElement('h2');
-titleArticle.textContent = journal.articlePrincipal.titre;
-sectionA.appendChild(titleArticle);
+let titleArticle = document.createElement('h2')
+titleArticle.textContent = journal.articlePrincipal.titre
+sectionA.appendChild(titleArticle)
 
-let themeArticle = document.createElement('h3');
-themeArticle.textContent = journal.articlePrincipal.theme;
-sectionA.appendChild(themeArticle);
+let themeArticle = document.createElement('h3')
+themeArticle.textContent = journal.articlePrincipal.theme
+sectionA.appendChild(themeArticle)
 
-let dateArticle = document.createElement('h3');
-dateArticle.textContent = journal.articlePrincipal.date;
-sectionA.appendChild(dateArticle);
+let dateArticle = document.createElement('h3')
+dateArticle.textContent = journal.articlePrincipal.date
+sectionA.appendChild(dateArticle)
 
-let descriptionArticle = document.createElement('p');
-descriptionArticle.textContent = journal.articlePrincipal.description;
-sectionA.appendChild(descriptionArticle);
+let descriptionArticle = document.createElement('p')
+descriptionArticle.textContent = journal.articlePrincipal.description
+sectionA.appendChild(descriptionArticle)
 
-let imageArticle = document.createElement('img');
-imageArticle.src = journal.articlePrincipal.image;
-imageArticle.alt = journal.articlePrincipal.titre;
-sectionA.appendChild(imageArticle);
+let imageArticle = document.createElement('img')
+imageArticle.src = journal.articlePrincipal.image
+imageArticle.alt = journal.articlePrincipal.titre
+sectionA.appendChild(imageArticle)
 
 console.log(sectionA);
 
 /*SectionB Autres Articles*/
 
-let sectionB = document.getElementById('sectionB');
+let sectionB = document.getElementById('sectionB')
 console.log(sectionB);
 
-/*Boucle Autres Articles
+/*Boucle Autres Articles*/
 
-data.journal.articles.forEach(article => {*/
+data.journal.articles.forEach(article => {
 
-let imageArticle = document.createElement('img');
-imageArticle.src = article.image;
-imageArticle.alt = article.titre;
-sectionB.appendChild(imageArticle);
+let imageArticle = document.createElement('img')
+imageArticle.src = article.image
+imageArticle.alt = article.titre
+sectionB.appendChild(imageArticle)
 
-let titleArticle = document.createElement('h2');
-titleArticle.textContent = article.titre;
-sectionB.appendChild(titleArticle);
+let titleArticle = document.createElement('h2')
+titleArticle.textContent = article.titre
+sectionB.appendChild(titleArticle)
 
-let themeArticle = document.createElement('h3');
-themeArticle.textContent = article.theme;
-sectionB.appendChild(themeArticle);
+let themeArticle = document.createElement('h3')
+themeArticle.textContent = article.theme
+sectionB.appendChild(themeArticle)
 
-let dateArticle = document.createElement('h3');
-dateArticle.textContent = article.date;
-sectionB.appendChild(dateArticle);
-/*});*/
+let dateArticle = document.createElement('h3')
+dateArticle.textContent = article.date
+sectionB.appendChild(dateArticle)
+});
 
-console.log(sectionB);
+
 
 /*SectionC Découvrez Notre Equipe*/
 
-let sectionC = document.getElementById('sectionC');
+let sectionC = document.getElementById('sectionC')
 console.log(sectionC);
 
 /*Boucle*/
 
-/*data.journal.auteurs.forEach(auteur => {*/
+data.journal.auteurs.forEach(auteur => {
 
-let prenomAuteur = document.createElement('h3');
-prenomAuteur.textContent  = auteur.prenom;
-sectionC.appendChild(prenomAuteur);
+let prenomAuteur = document.createElement('h3')
+prenomAuteur.textContent  = auteur.prenom
+sectionC.appendChild(prenomAuteur)
 
-let typeExAuteur = document.createElement('p');
-typeExAuteur.textContent = auteur.typeExperience;
-sectionC.appendChild(typeExAuteur);
+let typeExAuteur = document.createElement('p')
+typeExAuteur.textContent = auteur.typeExperience
+sectionC.appendChild(typeExAuteur)
 
-let presentationAuteur = document.createElement('p');
-presentationAuteur.textContent = auteur.presentation;
-sectionC.appendChild(presentationAuteur);
+let presentationAuteur = document.createElement('p')
+presentationAuteur.textContent = auteur.presentation
+sectionC.appendChild(presentationAuteur)
 
-let imageAuteur = document.createElement('img');
-imageAuteur.src = auteur.image;
-imageAuteur.alt = auteur.prenomAuteur;
-sectionC.appendChild(imageAuteur);
-   
+let imageAuteur = document.createElement('img')
+imageAuteur.src = auteur.image
+imageAuteur.alt = auteur.prenomAuteur
+sectionC.appendChild(imageAuteur)
+});  
   
-console.log(sectionC);
 
-/*});*/
+
+
 
  
  
