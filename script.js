@@ -66,9 +66,9 @@ console.log(sectionA);
 let sectionB = document.getElementById('sectionB');
 console.log(sectionB);
 
-/*Boucle Autres Articles*/
+/*Boucle Autres Articles
 
-data.journal.articles.forEach(article => {
+data.journal.articles.forEach(article => {*/
 
 let imageArticle = document.createElement('img');
 imageArticle.src = article.image;
@@ -86,7 +86,7 @@ sectionB.appendChild(themeArticle);
 let dateArticle = document.createElement('h3');
 dateArticle.textContent = article.date;
 sectionB.appendChild(dateArticle);
-});
+/*});*/
 
 console.log(sectionB);
 
@@ -97,45 +97,37 @@ console.log(sectionC);
 
 /*Boucle*/
 
-data.journal.auteurs.forEach(auteur => {
+/*data.journal.auteurs.forEach(auteur => {*/
 
 let prenomAuteur = document.createElement('h3');
-prenomAuteur.textContent  = journal.auteur.prenom;
+prenomAuteur.textContent  = auteur.prenom;
 sectionC.appendChild(prenomAuteur);
 
 let typeExAuteur = document.createElement('p');
-typeExAuteur.textContent = journal.auteur.typeExperience;
+typeExAuteur.textContent = auteur.typeExperience;
 sectionC.appendChild(typeExAuteur);
 
 let presentationAuteur = document.createElement('p');
-presentationAuteur.textContent =journal.auteur.presentation;
+presentationAuteur.textContent = auteur.presentation;
 sectionC.appendChild(presentationAuteur);
 
-/*let imageAuteur = document.createElement('img');
-imageAuteur.src = 
-imageAuteur.alt = 
-sectionC.appendChild(imageAuteur);*/
+let imageAuteur = document.createElement('img');
+imageAuteur.src = auteur.image;
+imageAuteur.alt = auteur.prenomAuteur;
+sectionC.appendChild(imageAuteur);
+   
   
-});
+console.log(sectionC);
 
+/*});*/
 
-
-
-
-
-
-
-      
+ 
  
  
  
   
   
   
-  
-  
-  
-
   
   
   

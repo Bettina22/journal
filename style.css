@@ -64,10 +64,36 @@ li{
    background: green;
    color: black;
 }
-header h1 h2{
+header{
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: yellow; 
+    color: black;  
 }
+#accroche {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 50px;
+}
+#accroche li{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+#sectionA{
+   background-color: orangered;
+}
+#sectionB{
+   background-color: green;
+}
+#sectionC{
+   background-color: blue;
+}
+
 footer
 {display: flex;
 align-items: center;
