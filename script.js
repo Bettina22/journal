@@ -1,4 +1,4 @@
-const { createElement } = require("react");
+/*const { createElement } = require("react");*/
 
 function getData() {
    fetch('data.json')

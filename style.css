@@ -68,3 +68,9 @@ header h1 h2{
     display: flex;
     align-content: center;
 }
+footer
+{display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+}
