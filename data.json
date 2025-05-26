@@ -8,38 +8,38 @@
       "description": "À seulement 16 ans, Nicolas Gertner impressionne par sa maîtrise du Rubik's Cube, résolvant le puzzle avec une dextérité remarquable.",
       "date": "20 Mai 2025",
       "theme": "Innovations",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Nicolas_Gertner_2024.jpg/800px-Nicolas_Gertner_2024.jpg"
+      "image": "images/nico.jpg"
       },
     "articles": [
       {
         "titre": "Mikael Taieb redéfinit les limites du Rubik's Cube",
         "date": "15 Avril 2025",
         "theme": "Recherche",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mikael_Taieb_2024.jpg/800px-Mikael_Taieb_2024.jpg"
+        "image": "images/Mikael.jpg"
       },
       {
         "titre": "Le Championnat de France 2025 : un vivier de jeunes talents",
         "date": "10 Mars 2025",
         "theme": "Applications",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Championnat_France_2025.jpg/800px-Championnat_France_2025.jpg"
+        "image": "images/championnat.jpg"
       },
       {
         "titre": "L'Association Française de Speedcubing : moteur de la discipline",
         "date": "25 Février 2025",
         "theme": "Débats",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/AFS_Logo.jpg/800px-AFS_Logo.jpg"
+        "image": "images/speedcubing.jpg"
       },
       {
         "titre": "Gilles Roux : l'inventeur de la méthode éponyme",
         "date": "10 Janvier 2025",
         "theme": "Partenariats",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gilles_Roux_2024.jpg/800px-Gilles_Roux_2024.jpg"
+        "image": "images/gilles.jpg"
       },
       {
         "titre": "Le Rubik's Cube : un outil pédagogique et thérapeutique",
         "date": "5 Décembre 2024",
         "theme": "Éthique",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rubiks_Cube_Education.jpg/800px-Rubiks_Cube_Education.jpg"
+        "image": "images/rubics cube.jpg"
       }
     ],
     "themes": [
