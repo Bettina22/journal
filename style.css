@@ -1,6 +1,11 @@
 body{
    margin: 8px;
 }
+h1, h2{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
 
 .logo{
    display: flex;
@@ -64,11 +69,31 @@ li{
    text-decoration: none;
    padding: 8px 16px;
    width: fit-content;
-   font-weight: 500;
+   font-weight: 500;  
+   
 }
+
 .bouton.primaire{
-   background: green;
+   background: rgb(34, 204, 34);
    color: black;
+}
+button{
+ display: flex;
+   align-content: center;
+   justify-content: center;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 8px 16px;
+   width: fit-content;
+   font-weight: 500; 
+   background: yellow;
+   color: black;   
+}
+.textDiv{
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
 }
 header{
     display: flex;
@@ -116,6 +141,10 @@ main{
 #sectionArticles{
    display: flex;
    flex-direction: column;
+}
+#sectionArticles img{
+   width: 200px;
+   height: 200px;
 }
 
  

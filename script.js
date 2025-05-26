@@ -129,6 +129,10 @@ sectionArticles.appendChild(carteArticle)
 let sectionAuteurs = document.getElementById('sectionAuteurs')
 console.log(sectionAuteurs);
 
+
+
+
+
 /*Boucle*/
 
 data.journal.auteurs.forEach(auteur => {
