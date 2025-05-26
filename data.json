@@ -9,7 +9,7 @@
       "date": "20 Mai 2025",
       "theme": "Innovations",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Nicolas_Gertner_2024.jpg/800px-Nicolas_Gertner_2024.jpg"
-    },
+      },
     "articles": [
       {
         "titre": "Mikael Taieb redéfinit les limites du Rubik's Cube",
@@ -72,19 +72,21 @@
       {
         "prenom": "Claire",
         "typeExperience": "Journaliste spécialisée en jeux de réflexion",
-        "presentation": "Je couvre les compétitions de Rubik's Cube avec un intérêt particulier pour les jeunes talents émergents."
+        "presentation": "Je couvre les compétitions de Rubik's Cube avec un intérêt particulier pour les jeunes talents émergents.",
+        "image": "images/Claire.jpg"
         
       },
       {
         "prenom": "Thomas",
         "typeExperience": "Analyste en développement cognitif",
-        "presentation": "Je m'intéresse aux interactions entre jeux de réflexion, culture et développement personnel, notamment dans le contexte français."
-      } 
+        "presentation": "Je m'intéresse aux interactions entre jeux de réflexion, culture et développement personnel, notamment dans le contexte français.",
+        "image": "images/Thomas.jpg"
+      },
       {
         "prenom": "Elena",
         "typeExperience": "Sociologue du jeu",
-        "presentation": "Je travaille sur les dynamiques sociales et identitaires liées à la pratique du Rubik's Cube chez les jeunes."
-        
+        "presentation": "Je travaille sur les dynamiques sociales et identitaires liées à la pratique du Rubik's Cube chez les jeunes.",
+        "image": "images/Elena.jpg"
       }
     ]
   }

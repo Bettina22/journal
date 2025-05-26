@@ -35,86 +35,129 @@ header.appendChild(texteAppelAction);*/
 
 /*SectionA Article Plus Récent*/
 
-let sectionA = document.getElementById('sectionA')
-console.log(sectionA);
+let sectionArticleRecent = document.getElementById('sectionArticleRecent')
+console.log(sectionArticleRecent);
 
-let titleArticle = document.createElement('h2')
-titleArticle.textContent = journal.articlePrincipal.titre
-sectionA.appendChild(titleArticle)
+/*Créer carte article recent*/
 
-let themeArticle = document.createElement('h3')
-themeArticle.textContent = journal.articlePrincipal.theme
-sectionA.appendChild(themeArticle)
+let carteArticleRecent = document.createElement('div')
+carteArticleRecent.className = "carteArticleRecent";
 
-let dateArticle = document.createElement('h3')
-dateArticle.textContent = journal.articlePrincipal.date
-sectionA.appendChild(dateArticle)
 
-let descriptionArticle = document.createElement('p')
-descriptionArticle.textContent = journal.articlePrincipal.description
-sectionA.appendChild(descriptionArticle)
 
 let imageArticle = document.createElement('img')
 imageArticle.src = journal.articlePrincipal.image
 imageArticle.alt = journal.articlePrincipal.titre
-sectionA.appendChild(imageArticle)
+carteArticleRecent.appendChild(imageArticle)
 
-console.log(sectionA);
+let titleArticle = document.createElement('h2')
+titleArticle.textContent = journal.articlePrincipal.titre
+carteArticleRecent.appendChild(titleArticle)
+
+let themeArticle = document.createElement('h3')
+themeArticle.textContent = journal.articlePrincipal.theme
+carteArticleRecent.appendChild(themeArticle)
+
+let dateArticle = document.createElement('h3')
+dateArticle.textContent = journal.articlePrincipal.date
+carteArticleRecent.appendChild(dateArticle)
+
+let descriptionArticle = document.createElement('p')
+descriptionArticle.textContent = journal.articlePrincipal.description
+carteArticleRecent.appendChild(descriptionArticle)
+
+let boutonArticle = document.createElement('button')
+boutonArticle.textContent = "Lire l'article"
+carteArticleRecent.appendChild(boutonArticle)
+
+
+sectionArticleRecent.appendChild(carteArticleRecent)
+
+console.log(sectionArticleRecent);
 
 /*SectionB Autres Articles*/
 
-let sectionB = document.getElementById('sectionB')
-console.log(sectionB);
+let sectionArticles = document.getElementById('sectionArticles')
+console.log(sectionArticles);
 
 /*Boucle Autres Articles*/
 
 data.journal.articles.forEach(article => {
 
+/*Créer carte article*/
+
+let carteArticle = document.createElement('div')
+carteArticle.className = "carteArticle";
+
+
+
+
 let imageArticle = document.createElement('img')
 imageArticle.src = article.image
 imageArticle.alt = article.titre
-sectionB.appendChild(imageArticle)
+carteArticle.appendChild(imageArticle)
+
+let textDiv = document.createElement('div')
+textDiv.className = "textDiv";
 
 let titleArticle = document.createElement('h2')
 titleArticle.textContent = article.titre
-sectionB.appendChild(titleArticle)
+textDiv.appendChild(titleArticle)
 
 let themeArticle = document.createElement('h3')
 themeArticle.textContent = article.theme
-sectionB.appendChild(themeArticle)
+textDiv.appendChild(themeArticle)
 
 let dateArticle = document.createElement('h3')
 dateArticle.textContent = article.date
-sectionB.appendChild(dateArticle)
+textDiv.appendChild(dateArticle)
+
+let boutonArticle = document.createElement('button')
+boutonArticle.textContent = "Lire l'article"
+textDiv.appendChild(boutonArticle)
+
+carteArticle.appendChild(textDiv)
+
+
+sectionArticles.appendChild(carteArticle)
 });
 
 
 
 /*SectionC Découvrez Notre Equipe*/
 
-let sectionC = document.getElementById('sectionC')
-console.log(sectionC);
+let sectionAuteurs = document.getElementById('sectionAuteurs')
+console.log(sectionAuteurs);
 
 /*Boucle*/
 
 data.journal.auteurs.forEach(auteur => {
 
-let prenomAuteur = document.createElement('h3')
-prenomAuteur.textContent  = auteur.prenom
-sectionC.appendChild(prenomAuteur)
+/*Créer carte auteur*/
+let carteAuteur = document.createElement('div')
+carteAuteur.className = "carteAuteur";
 
-let typeExAuteur = document.createElement('p')
-typeExAuteur.textContent = auteur.typeExperience
-sectionC.appendChild(typeExAuteur)
 
-let presentationAuteur = document.createElement('p')
-presentationAuteur.textContent = auteur.presentation
-sectionC.appendChild(presentationAuteur)
 
 let imageAuteur = document.createElement('img')
 imageAuteur.src = auteur.image
 imageAuteur.alt = auteur.prenomAuteur
-sectionC.appendChild(imageAuteur)
+carteAuteur.appendChild(imageAuteur)
+
+let prenomAuteur = document.createElement('h3')
+prenomAuteur.textContent  = auteur.prenom
+carteAuteur.appendChild(prenomAuteur)
+
+let typeExAuteur = document.createElement('p')
+typeExAuteur.textContent = auteur.typeExperience
+carteAuteur.appendChild(typeExAuteur)
+
+let presentationAuteur = document.createElement('p')
+presentationAuteur.textContent = auteur.presentation
+carteAuteur.appendChild(presentationAuteur)
+
+
+sectionAuteurs.appendChild(carteAuteur)
 });  
   
 

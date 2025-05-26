@@ -1,3 +1,7 @@
+body{
+   margin: 8px;
+}
+
 .logo{
    display: flex;
    flex-direction: row; 
@@ -31,6 +35,8 @@ nav{
    padding: 10px 30px;
    box-shadow: 10px 5px 5px red;
    align-items: center;
+   border-radius: 5%;
+   border: 3px solid orangered;
 }
 ul{
    display: flex;
@@ -69,7 +75,11 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    background-color: yellow; 
+    border-radius: 5%;
+   border: 3px solid yellow;
+   padding: 10px 30px;
+   box-shadow: 10px 5px 5px yellow;
+    
     color: black;  
 }
 #accroche {
@@ -86,21 +96,74 @@ header{
 }
 main{
    display: flex;
+   flex-direction: column;
 }
-#sectionA{
-   background-color: orangered;
+#sectionArticleRecent{
+   display: flex;
+   flex-direction: column;
+
 }
-#sectionB{
-   background-color: green;
+.carteArticleRecent{
+ display: flex;
+   flex-direction: column;
+   border-radius: 5%;
+   border: 3px solid blue;
+   padding: 10px 30px;
+   box-shadow: 10px 5px 5px blue;
+   align-items: center;
+   text-align: center;  
 }
-#sectionC{
-   background-color: blue;
+#sectionArticles{
+   display: flex;
+   flex-direction: row;
 }
+
+ 
+    
+
+.carteArticle{
+   display: flex;
+   flex-direction: row;
+   border-radius: 5%;
+   border: 3px solid green;
+   padding: 10px 30px;
+   box-shadow: 10px 5px 5px green;
+   align-items: center;
+   text-align: center;
+
+}
+#sectionAuteurs{
+   display: flex;
+   flex-direction: row;
+}
+#sectionAuteurs img{
+   
+   width: 70px;
+   height: 70px;
+   border-radius: 100%;
+   border: 3px solid orangered;
+}
+.carteAuteur{
+   display: flex;
+   flex-direction: column;
+   border-radius: 10%;
+   border: 3px solid red;
+   padding: 10px 30px;
+   box-shadow: 10px 5px 5px red;
+   align-items: center;
+   text-align: center;
+}
+
+
+
 
 footer
 {display: flex;
 align-items: center;
 justify-content: center;
 font-weight: 500;
-background-color: red;
+border-radius: 5%;
+border: 3px solid orangered;
+padding: 10px 30px;
+box-shadow: 10px 5px 5px orangered;
 }
