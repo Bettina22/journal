@@ -15,6 +15,8 @@ function getData() {
 let journal = data.journal;
 console.log(journal);
 
+/*nav: logo, nom ...*/
+
 
 /*Header - Nom Journal , Phrase Accroche*/
 
